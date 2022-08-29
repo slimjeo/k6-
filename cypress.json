@@ -1,0 +1,10 @@
+{
+  "video": true,
+  "defaultCommandTimeout": 15000,
+  "pageLoadTimeout": 100000,
+  "screenshotsFolder": "cypress/screenshots",
+  "retries": 0,
+  "viewportWidth": 1200,
+  "viewportHeight": 700,
+  "testFiles": "**/**/*.feature"
+}

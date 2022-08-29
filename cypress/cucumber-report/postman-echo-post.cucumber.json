@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Postman Echo Tests",
+    "line": 2,
+    "id": "postman-echo-tests",
+    "tags": [
+      {
+        "name": "@api",
+        "line": 1
+      }
+    ],
+    "uri": "postman-echo-post.feature",
+    "elements": [
+      {
+        "id": "postman-echo-tests;post-cake-payload",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Post Cake Payload",
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have a payload cake json",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I post the request to postman echo endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the response status should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be able to sum up the cake price from response body",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the total price should be 15",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

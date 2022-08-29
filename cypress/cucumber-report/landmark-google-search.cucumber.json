@@ -1,0 +1,85 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Landmark Google Search",
+    "line": 2,
+    "id": "landmark-google-search",
+    "tags": [
+      {
+        "name": "@ui",
+        "line": 1
+      }
+    ],
+    "uri": "landmark-google-search.feature",
+    "elements": [
+      {
+        "id": "landmark-google-search;i-should-see-ochresoft-website-in-landmark-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "I should see Ochresoft website in Landmark google search",
+        "tags": [
+          {
+            "name": "@ui",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the google search page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "searchKeyWord",
+                      "filter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "landmark information group",
+                      "Past month"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I perform a search and filer",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should present link to the Ochresoft website",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should be navigate to the Ochresoft website",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

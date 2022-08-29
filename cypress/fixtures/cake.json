@@ -1,0 +1,12 @@
+{
+  "Cakes": [
+    {
+      "Name": "Muffin",
+      "Price": 10.00
+    },
+    {
+      "Name": "Crumpet",
+      "Price": 5.00
+    }
+  ]
+}
